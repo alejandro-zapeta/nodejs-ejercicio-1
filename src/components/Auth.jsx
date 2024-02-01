@@ -4,8 +4,6 @@ import { useForm } from "react-hook-form";
 const required = { required: true };
 const displayCss = { display: 'block' };
 
-
-
 function Auth(props) {
     const { register, handleSubmit, formState: { errors } } = useForm();
 
